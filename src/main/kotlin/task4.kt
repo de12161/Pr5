@@ -5,7 +5,7 @@ fun main() {
         Point(doubleInput("Введите x3: "), doubleInput("Введите y3: "))
     )
 
-    val o = t.orthocenter()
+    val o = t.circumcenter()
 
     if (o == null) {
         println("Точки находятся на одной прямой, окружность построить невозможно")
