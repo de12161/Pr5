@@ -1,0 +1,1 @@
+internal class Line(val a: Double, val b: Double, val c: Double) { }
