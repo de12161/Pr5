@@ -5,7 +5,11 @@ internal class Line(val a: Double, val b: Double, val c: Double) {
         return (a == l.a && b == l.b) || (a == -l.a && b == -l.b)
     }
     fun intersect(l: Line): Point? {
-        if (isParallel(l)) return null
+        if (
+            isParallel(l)
+            || (a == 0.0 && b == 0.0)
+            || (l.a == 0.0 && l.b == 0.0)
+            ) return null
 
         val x = (l.b * c - b * l.c) / (l.a * b - a * l.b)
         val y = (l.a * c - a * l.c) / (a * l.b - l.a * b)
