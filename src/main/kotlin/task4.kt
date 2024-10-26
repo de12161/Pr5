@@ -5,10 +5,7 @@ fun main() {
         Point(doubleInput("Введите x3: "), doubleInput("Введите y3: "))
     )
 
-    val l1 = perpendicular(t.p1, t.p2)
-    val l2 = perpendicular(t.p1, t.p3)
-
-    val o = l1.intersect(l2)
+    val o = t.orthocenter()
 
     if (o == null) {
         println("Точки находятся на одной прямой, окружность построить невозможно")
