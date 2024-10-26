@@ -7,8 +7,6 @@ fun main() {
 
     val l1 = perpendicular(t.p1, t.p2)
     val l2 = perpendicular(t.p1, t.p3)
-    println("l1.a = ${l1.a} l1.b = ${l1.b} l1.c = ${l1.c}")
-    println("l2.a = ${l2.a} l2.b = ${l2.b} l2.c = ${l2.c}")
 
     val o = l1.intersect(l2)
 

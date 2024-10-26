@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20230497-0f48-4970-8652-bef3293b40fb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Line.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Line.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Point.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Point.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Triangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Triangle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/task4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/task4.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/utils.kt" afterDir="false" />
-    </list>
+    <list default="true" id="20230497-0f48-4970-8652-bef3293b40fb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
