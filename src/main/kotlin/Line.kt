@@ -1,7 +1,8 @@
 internal class Line(val a: Double, val b: Double, val c: Double) {
     private fun isParallel(l: Line): Boolean {
-        if ((a == l.a && b == l.b) || (a == -l.a && b == -l.b)) return true
-        return false
+        if (a == 0.0 && b == 0.0) return false
+
+        return (a == l.a && b == l.b) || (a == -l.a && b == -l.b)
     }
     fun intersect(l: Line): Point? {
         if (isParallel(l)) return null
